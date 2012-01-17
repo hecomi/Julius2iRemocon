@@ -6,7 +6,7 @@ int main(int argc, char const* argv[])
 	iRemoconClient ir("192.168.0.3", 51013);
 	Interpreter ip;
 
-	if (!ip.learn_commands_from_xml("xml/commands.xml")) {
+	if (!ip.learn_commands_from_xml("data/commands.xml")) {
 		std::cerr << "Error: XML is invalid" << std::endl;
 	}
 

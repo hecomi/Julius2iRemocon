@@ -1,1 +1,7 @@
-See http://d.hatena.ne.jp/hecomi/20120116/1326726831
+1. http://julius.sourceforge.jp/index.php?q=grammar-kit.html で Julius を DL。
+2. 解凍して Julius2iRemocon 内に "julius" とディレクトリをリネームして放り込む
+3. ./run  で実行
+4. ./stop で停止
+
+元記事： http://d.hatena.ne.jp/hecomi/20120116/1326726831 for more details.
+
