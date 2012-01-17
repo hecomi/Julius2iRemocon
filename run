@@ -1,6 +1,8 @@
 #!/bin/sh
 
-./julius/bin/julius -C julius/hmm_mono.jconf -gram data/kaden -input mic -lv 1000 -zc 1 -rejectshort 800 -module &
-echo "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
-./juli2ir &
+while true; do
+	./julius/bin/julius -C julius/hmm_mono.jconf -gram data/kaden -input mic -lv 1000 -zc 1 -rejectshort 800 -module &
+	./juli2ir &
+	sleep 3600
+done
 
